@@ -1,0 +1,13 @@
+{
+  "name": "Bijoy Valsan",
+  "address": {
+    "line1": "Flughafen str 72-74",
+    "line2": "Berlin 12049",
+    "line3": "Germany"
+  },
+  "email": "bijoy.valsan@gmail.com",
+  "phone": "+4917669517308",
+  "linkedIn": "https://www.linkedin.com/in/bijoy-valsan",
+  "github": "https://github.com/bijoyvalsan",
+  "aboutMe": "Senior developer , constantly exploring technologies and products which help businesses leverage technology in the right way. Keeper of processes. Skilled in React Js, .Net, Node js, Graphql , jQuery, Ms SQL, Postgres."
+}
