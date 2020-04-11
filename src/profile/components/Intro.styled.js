@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../util';
 
 const bijoyImage =`${window.location.origin}/images/bijoy.jpeg`
 
@@ -8,6 +9,7 @@ export const StyledContainer = styled.div`
  height: 100%;
  width: 100%;
  padding: 25px;
+ overflow-y: auto;
 
  .row1 {
   display: flex;
@@ -19,6 +21,29 @@ export const StyledContainer = styled.div`
       height: 350px;
       background-repeat: no-repeat;
   }
+  @media ${device.mobileL} { 
+    flex-direction: column;
+    .image-section {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media ${device.mobileM} { 
+    flex-direction: column;
+    .image-section {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media ${device.mobileS} { 
+    flex-direction: column;
+    .image-section {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
 } 
 
 .details-section {
@@ -29,6 +54,26 @@ export const StyledContainer = styled.div`
 .details-row {
   display: flex;
   justify-content: space-around;
+  img {
+    width: 100px;
+  }
+  @media ${device.mobileL} { 
+    img {
+      width: 50px;
+    }
+  }
+  
+  @media ${device.mobileM} { 
+    img {
+      width: 50px;
+    }
+  }
+  
+  @media ${device.mobileS} { 
+    img {
+      width: 50px;
+    }
+  }
 }
 .details-column {
   flex: 1;

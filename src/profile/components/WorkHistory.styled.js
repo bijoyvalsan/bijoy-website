@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import Card from '@material-ui/core/Card';
 
+import { device } from '../../util';
+
 export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,6 +33,10 @@ export const StyledWorkHistoryCard = styled(Card)`
   background-size: contain;
   background-position: center;
   margin: 10px auto;
+  @media ${device.mobileL} { 
+    width: 100px;
+    height: 25px;
+  }
  }
 
  .row {

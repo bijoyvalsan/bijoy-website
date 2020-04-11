@@ -67,9 +67,9 @@ const Intro = () => {
         </div>
         <div>
           <div className="details-row">
-            <img alt="react" style={{ width: '100px'}} src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-            <img alt="node js" style={{ width: '100px'}}  src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />
-            <img alt="graphql" style={{ width: '100px'}}  src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" />
+            <img alt="react"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
+            <img alt="node js"  src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />
+            <img alt="graphql"  src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" />
           </div>
         </div>
       </StyledContainer>
