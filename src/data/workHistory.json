@@ -1,0 +1,39 @@
+{
+  "workHistoryTitle": "Work Experience",
+  "workHistory":[{
+    "logo": "https://static.smava.de/logo/smava_logo.svg",
+    "company":"SMAVA Gmbh",
+    "role":"Senior Software Engineer",
+    "location": "Berlin, Germany",
+    "FullTimeJob": "Yes",
+    "from - To":"01 Nov 2019 - Present"
+  },{
+    "logo": "https://www.heavenhr.com/web/images/logo-blue.svg",
+    "company":"HeavenHR Gmbh",
+    "role":"Senior Frontend Developer",
+    "location": "Berlin, Germany",
+    "FullTimeJob": "Yes",
+    "from - To":"01 March 2019 - 30 Oct 2019"
+  },{
+    "logo": "https://www.cognizant.com/content/dam/cognizant_foundation/Dotcomimage/COG-Logo-White.svg",
+    "company":"Cognizant Technologies",
+    "role":"Senior Associate",
+    "location": "Kochi, Kerala, India",
+    "FullTimeJob": "Yes",
+    "from - To":"21 Nov 2016 - 22 Feb 2019"
+  },{
+    "logo": "http://www.arcadix.com/images/logos/Arcadix_Logo_75.png",
+    "company":"Arcadix Infotech",
+    "role":"Module Lead",
+    "location": "Bangalore, Karnataka, India",
+    "FullTimeJob": "Yes",
+    "from - To":"06 Sept 2011 - 16 Nov 2016"
+  },{
+    "logo": "https://secureservercdn.net/198.71.233.254/ca8.dc3.myftpupload.com/wp-content/uploads/2017/12/TS_logo.svg",
+    "company":"Technosoft Corp.",
+    "role":"Software Engineer",
+    "location": "Bangalore, Karnataka, India",
+    "FullTimeJob": "Yes",
+    "from - To":"01 April 2010 - 04 Sept 2011"
+  }]
+}

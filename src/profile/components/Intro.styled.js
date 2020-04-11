@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const bijoyImage =`${window.location.origin}/images/bijoy.jpeg`
 
-export const Container = styled.div`
+export const StyledContainer = styled.div`
  display: flex;
  flex-direction: column;
  height: 100%;

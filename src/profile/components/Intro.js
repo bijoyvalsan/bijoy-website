@@ -2,14 +2,14 @@ import React from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { StyledCard, StyledTypography, StyledIcon, StyledLink } from '../../components/MaterialUI'
-import { Container } from './Intro.styled'
+import { StyledContainer } from './Intro.styled'
 
 import introData from '../../data/intro.json'
 
 const Intro = () => {
   return (
     <StyledCard>
-      <Container>
+      <StyledContainer>
         <div className='row1'>
           <div className='image-section'>
           </div>
@@ -72,7 +72,7 @@ const Intro = () => {
             <img alt="graphql" style={{ width: '100px'}}  src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" />
           </div>
         </div>
-      </Container>
+      </StyledContainer>
     </StyledCard>
   )
 }

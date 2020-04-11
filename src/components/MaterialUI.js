@@ -15,6 +15,7 @@ max-height: 600px;
 export const StyledTypography = styled(Typography)`
  color: rgb(0,0,0) !important;
  font-weight: 400 !important;
+ text-transform:capitalize;
 `;
 
 export const StyledIcon = styled(Icon)`

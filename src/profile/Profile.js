@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import { useSprings  } from 'react-spring'
 import { useDrag } from 'react-use-gesture'
 import Intro from './components/Intro';
-import Skills from './components/Skills';
 import WorkHistory from './components/WorkHistory';
 import { to, from } from './helper';
 import { StyledContainer, StyledAnimatedCard } from './Profile.styled'
 
-const PageInfo = [Intro, Skills, WorkHistory].reverse();
+const PageInfo = [Intro, WorkHistory].reverse();
 
 const pageCount = PageInfo.length;
 const Profile = () => {
@@ -27,7 +26,7 @@ const Profile = () => {
     })
     if (!down && gone.size === pageCount) setTimeout(() => gone.clear() || set(i => to(i)), 600)
   })
-    
+
   return props.map(({ x, y }, i) => {
     const Page = PageInfo[i];
     return (
