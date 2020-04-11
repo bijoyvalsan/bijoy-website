@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { device } from '../../util';
 
-const bijoyImage =`${window.location.origin}/images/bijoy.jpeg`
-
 export const StyledContainer = styled.div`
  display: flex;
  flex-direction: column;
@@ -15,11 +13,14 @@ export const StyledContainer = styled.div`
   display: flex;
   flex: 1;
   .image-section {
-      background-image: url(${bijoyImage});
       background-size: 275px 400px;
       width: 50%;
       height: 350px;
       background-repeat: no-repeat;
+      img {
+        width: 100%;
+        height: 350px;
+      }
   }
   @media ${device.mobileL} { 
     flex-direction: column;
@@ -28,7 +29,10 @@ export const StyledContainer = styled.div`
       min-width: 250px;
       margin-bottom: 10px;
       height: 300px;
-      content: ' ';
+      img {
+        width: 100%;
+        height: 300px;
+      }
     }
   }
 } 

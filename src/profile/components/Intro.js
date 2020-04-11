@@ -7,11 +7,13 @@ import { StyledContainer } from './Intro.styled'
 import introData from '../../data/intro.json'
 
 const Intro = () => {
+  const bijoyImage =`${window.location.origin}/images/bijoy.jpeg`
   return (
     <StyledCard>
       <StyledContainer>
         <div className='row1'>
           <div className='image-section'>
+            <img alt="bijoy" src={bijoyImage} ></img>
           </div>
           <div className='details-section'>
             <StyledTypography gutterBottom variant="h4">
