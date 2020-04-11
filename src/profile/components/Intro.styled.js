@@ -25,23 +25,10 @@ export const StyledContainer = styled.div`
     flex-direction: column;
     .image-section {
       width: 100%;
+      min-width: 250px;
       margin-bottom: 10px;
-    }
-  }
-  
-  @media ${device.mobileM} { 
-    flex-direction: column;
-    .image-section {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-  
-  @media ${device.mobileS} { 
-    flex-direction: column;
-    .image-section {
-      width: 100%;
-      margin-bottom: 10px;
+      height: 300px;
+      content: ' ';
     }
   }
 } 
