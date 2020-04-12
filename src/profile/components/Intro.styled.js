@@ -58,6 +58,9 @@ width: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
+  @media ${device.mobileL} { 
+   display: none;
+  }
 }
 
  .about-section {
