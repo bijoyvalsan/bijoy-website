@@ -15,11 +15,11 @@ export const StyledContainer = styled.div`
   .image-section {
       background-size: 275px 400px;
       width: 50%;
-      height: 350px;
+      height: 325px;
       background-repeat: no-repeat;
       img {
         width: 100%;
-        height: 350px;
+        height: 325px;
       }
   }
   @media ${device.mobileL} { 
@@ -40,9 +40,22 @@ export const StyledContainer = styled.div`
 .details-section {
   flex: 1;
   margin-left: 10px;
+  .details-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  .details-column {
+    flex: 1;
+    padding-left: 10px;
+  }
 }
 
-.details-row {
+ .about-section {
+   margin-top: 10px;
+   flex: 1;
+ }
+ .skill-image-section {
+  flex: 1;
   display: flex;
   justify-content: space-around;
   img {
@@ -53,25 +66,5 @@ export const StyledContainer = styled.div`
       width: 50px;
     }
   }
-  
-  @media ${device.mobileM} { 
-    img {
-      width: 50px;
-    }
-  }
-  
-  @media ${device.mobileS} { 
-    img {
-      width: 50px;
-    }
-  }
-}
-.details-column {
-  flex: 1;
-  padding-left: 10px;
-}
- .about-section {
-   margin-top: 10px;
-   flex: 1;
  }
 `;

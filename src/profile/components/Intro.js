@@ -61,18 +61,15 @@ const Intro = () => {
             </div>
           </div>
         </div>
-
-        <div className='about-section'>
+        <div className="about-section">
           <StyledTypography gutterBottom variant="body1">
             {introData.aboutMe}
           </StyledTypography>
         </div>
-        <div>
-          <div className="details-row">
+        <div className="skill-image-section">
             <img alt="react"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
             <img alt="node js"  src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />
             <img alt="graphql"  src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" />
-          </div>
         </div>
       </StyledContainer>
     </StyledCard>
