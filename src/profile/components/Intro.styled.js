@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { device } from '../../util';
 
 export const StyledContainer = styled.div`
+height: 100%;
+width: 100%;
+.main {
+ position: relative;
  display: flex;
  flex-direction: column;
  height: 100%;
@@ -73,4 +77,5 @@ export const StyledContainer = styled.div`
     }
   }
  }
+}
 `;
