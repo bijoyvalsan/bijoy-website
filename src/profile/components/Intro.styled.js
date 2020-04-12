@@ -10,8 +10,8 @@ export const StyledContainer = styled.div`
  overflow-y: auto;
 
  .row1 {
-  display: flex;
   flex: 1;
+  display: flex;
   .image-section {
       background-size: 275px 400px;
       width: 50%;
@@ -48,6 +48,12 @@ export const StyledContainer = styled.div`
     flex: 1;
     padding-left: 10px;
   }
+}
+
+.row2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
  .about-section {
